@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #101010;
+    padding: 20px 0;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo-container h1 {
+    color: white;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #101010;
+    color: white;
+    transition: 0.3s;
+}
+
+.navigation a li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    background-color: gray;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.about-container {
+    display: flex; /* Размещаем элементы в строку */
+    align-items: center; /* Выравниваем по центру */
+    gap: 20px; /* Отступ между изображением и текстом */
+}
+
+.profile-photo {
+    width: 400px; /* Уменьшаем размер */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 10px; /* Делаем углы скруглёнными */
+}
+
+.about-text {
+    max-width: 1000px; /* Ограничиваем ширину текста */
+}
+
+.about-text h2 {
+    font-size: 28px;
+}
+
+.about-text p {
+    font-size: 20px;
+    line-height: 1.6; /* Делаем строки более читаемыми */
+}
